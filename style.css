@@ -1,12 +1,30 @@
 * { margin: 0; padding: 0;}
 
-body, html { height:100%; }
+html { height:100%; }
 
 #overlay {
-  position:absolute;
   z-index:-1;
+  position: absolute;
+  left: 0%;
+  top: 8%;
+  bottom: 11%;
+  right: 50%;
 }
 
 body {
-  background-color: rgb(111,111,111);
+  height:100%;
+  background-color: rgb(0,0,0);
 }
+
+#box
+{
+    width: 100vw; 
+    height: 49.25vw; /* 100/56.25 = 1.778 */
+    max-height: 100vh;
+    max-width: 201.78vh; /* 16/9 = 1.778 */
+    margin: auto;
+    position: absolute;
+    top:0;bottom:0; /* vertical center */
+    left:0;right:0; /* horizontal center */
+}
+
